@@ -53,8 +53,13 @@ Desenvolvido para entrega até 04/05/2025 conforme o cronograma do processo sele
 
 ## 🔗 Veja Também
 
-- [Projeto CRUD de Usuários com Spring Boot](https://github.com/JandersonMota/crud-java.git)
-- [Landing Page para CICOM BA](https://github.com/JandersonMota/portfolio-cicom-saj.git)
+- 📂 [CRUD Java - Sistema de Cadastro](https://github.com/JandersonMota/crud-java)
+
+  Sistema de cadastro de usuários usando Java e Spring Boot.
+  
+- 📂 [Portfólio CICOM SAJ](https://github.com/JandersonMota/portfolio-cicom-saj)
+
+  Landing page institucional desenvolvida para o CICOM Santo Antônio de Jesus.
 
 ## ✍️ Autor
 Nome: Janderson de Jesus Teixeira Mota
