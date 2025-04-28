@@ -1,5 +1,5 @@
 # FURIA Fan Chat 💬
-Projeto desenvolvido como parte do processo seletivo para Estágio em Engenharia de Software na FURIA Tech.
+Projeto desenvolvido como parte do processo seletivo para Assistente de Engenharia de Software na FURIA Tech.
 
 Este é um chatbot web simples, pensado para os fãs da FURIA interagirem de forma rápida sobre informações como o próximo jogo, lineup dos jogadores e história do time.
 
