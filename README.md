@@ -1,3 +1,5 @@
+https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png
+
 # FURIA Fan Chat 💬
 Projeto desenvolvido como parte do processo seletivo para Assistente de Engenharia de Software na FURIA Tech.
 

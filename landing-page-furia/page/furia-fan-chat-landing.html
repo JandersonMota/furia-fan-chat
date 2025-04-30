@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/D4D0BAQG6Et8VHAbu8g/company-logo_200_200/company-logo_200_200/0/1720447293941/furiagg_logo?e=1751500800&v=beta&t=aYxer2R9yh_z4nOhwXzPZSbiyOVLODYOnirJE1t51hw">
+    <title>FURIA Fan Chat | Acompanhe seu time de CS favorito</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-img"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png"></div>
+            <div>FURIA <span>Fan Chat</span></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#features">Recursos</a></li>
+                <li><a href="#live-match">Partida Ao Vivo</a></li>
+                <li><a href="#chat">Chat</a></li>
+                <li><a href="#join">Participe</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Acompanhe a <span>FURIA</span> como nunca antes</h1>
+            <p>Junte-se à comunidade de fãs da FURIA CS para acompanhar partidas ao vivo, interagir com outros torcedores e ficar por dentro de tudo sobre seu time favorito.</p>
+            <button class="cta-button" onclick="document.getElementById('chat').scrollIntoView({behavior: 'smooth'})">Entrar no Chat</button>
+        </div>
+    </section>
+    
+    <section class="features" id="features">
+        <div class="features-title">
+            <h2>Recursos <span>Exclusivos</span></h2>
+            <p>Tudo que você precisa para ser um fã de verdade</p>
+        </div>
+        <div class="features-container">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-chart-simple"></i></div><!-- 📊 -->
+                <h3>Estatísticas em Tempo Real</h3>
+                <p>Acompanhe todas as estatísticas dos jogadores e do time durante as partidas ao vivo.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-brands fa-rocketchat"></i></div><!-- 💬 -->
+                <h3>Chat da Torcida</h3>
+                <p>Converse com outros fãs durante as partidas e comemore cada vitória juntos.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-bell"></i></div><!-- 🔔 -->
+                <h3>Notificações de Eventos</h3>
+                <p>Receba alertas sobre início de partidas, entrevistas e eventos especiais da FURIA.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div><!-- 📱 -->
+                <h3>Multiplataforma</h3>
+                <p>Acesse pelo celular, tablet ou computador. Nunca perca uma partida importante.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="live-match" id="live-match">
+        <h2>Partida <span>Ao Vivo</span></h2>
+        <div class="match-container">
+            <div class="match-status">AO VIVO</div>
+            <div class="teams">
+                <div class="team">
+                    <div class="team-logo furia-logo"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png"></div>
+                    <div class="team-name">FURIA</div>
+                    <div class="score">13</div>
+                </div>
+                <div class="versus">VS</div>
+                <div class="team">
+                    <div class="team-logo opponent-logo" style="background-color: #fff200;"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Natus_Vincere_logo.png"></div>
+                    <div class="team-name">NAVI</div>
+                    <div class="score">10</div>
+                </div>
+            </div>
+            <div class="match-details">
+                <div class="match-info">
+                    <div class="info-item">
+                        <div class="info-label">TORNEIO</div>
+                        <div class="info-value">ESL Pro League</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">FASE</div>
+                        <div class="info-value">Playoffs - Semifinal</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-label">MELHOR DE</div>
+                        <div class="info-value">3 Mapas</div>
+                    </div>
+                </div>
+                <div class="map-pool">
+                    <div class="map">Mirage</div>
+                    <div class="map active-map">Inferno</div>
+                    <div class="map">Nuke</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="chat-section" id="chat">
+        <div class="chat-title">
+            <h2>Chat da <span>Torcida</span></h2>
+            <p>Converse com outros fãs da FURIA em tempo real durante as partidas e fique por dentro de todas as novidades.</p>
+        </div>
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="chat-header-title">
+                    <div class="chat-logo"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png"></div>
+                    <div>FURIA Fan Chat</div>
+                </div>
+                <div class="chat-status">
+                    <div class="status-indicator"></div>
+                    <div>125 fãs online</div>
+                </div>
+            </div>
+            <div class="chat-main" id="chat-messages">
+                <!-- Mensagens do chat serão inseridas via JavaScript -->
+            </div>
+            <div class="chat-footer">
+                <input type="text" class="message-input" id="message-input" placeholder="Digite sua mensagem..." onkeypress="if(event.key === 'Enter') sendMessage()">
+                <button class="send-button" onclick="sendMessage()">
+                    <div class="send-icon">➤</div>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta-section" id="join">
+        <div class="cta-content">
+            <h2>Junte-se à <span>Comunidade</span></h2>
+            <p>Crie sua conta agora e tenha acesso a recursos exclusivos, recompensas e interaja com outros fãs da FURIA CS. Não perca nenhum momento importante do seu time!</p>
+            <button class="cta-button">Criar Conta Gratuita</button>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-logo">FURIA <span>Fan Chat</span></div>
+        <div class="footer-links">
+            <a href="#">Sobre Nós</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+            <a href="#">Contato</a>
+            <a href="#">Suporte</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/company/furiagg/about/" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UCE4elIT7DqDv545IA71feHg" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/furiagg/?hl=pt-br" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/FURIA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+        <div class="copyright">© 2025 FURIA Fan Chat. Todos os direitos reservados.</div>
+    </footer>
+    
+    <script src="../js/script.js"></script>
+</body>
+</html>
