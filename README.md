@@ -1,9 +1,11 @@
-https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png
-
 # FURIA Fan Chat 💬
 Projeto desenvolvido como parte do processo seletivo para Assistente de Engenharia de Software na FURIA Tech.
 
 Este é um chatbot web simples, pensado para os fãs da FURIA interagirem de forma rápida sobre informações como o próximo jogo, lineup dos jogadores e história do time.
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png" alt="FURIA Logo" width="130px">
+</div>
 
 ## 🛠️ Tecnologias utilizadas
 - HTML5
