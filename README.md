@@ -33,9 +33,13 @@ Vídeo de demonstração aqui: [Vídeo de Demonstração]()
 ## 📂 Estrutura de Pastas
 ``` pgsql
 /
+|- landing-page-furia/
+|  |- css/
+|  |  |- style.css
+|  |- js/
+|  |  |- script.js
+|  |- code-documentation.md
 |- index.html
-|- style.css
-|- script.js
 |- README.md
 ```
 
