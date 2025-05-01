@@ -83,18 +83,49 @@ nav ul li a:hover {
     color: var(--furia-blue);
 }
 
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .hero {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(rgba(13, 14, 19, 0.8), rgba(13, 14, 19, 0.9)), url('/api/placeholder/1920/1080') center/cover no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     padding: 0 2rem;
     text-align: center;
     position: relative;
-    background-image: url(https://old.runitback.gg/wp-content/uploads/2022/08/furia2.webp);
+    background-image: url('https://old.runitback.gg/wp-content/uploads/2022/08/furia2.webp');
+}
+/*
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    text-align: center;
+    position: relative;
+    background-image: url('https://old.runitback.gg/wp-content/uploads/2022/08/furia2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+
+.hero img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
 }
 
 .hero::before {
@@ -234,6 +265,7 @@ nav ul li a:hover {
     padding: 5rem 2rem;
     background-color: var(--furia-black);
     text-align: center;
+    background: url('https://wallpapers.com/images/hd/hd-counter-strike-global-offensive-background-ctsmck6p5fc35hyw.jpg') center/cover no-repeat;
 }
 
 .live-match h2 {
@@ -321,8 +353,13 @@ nav ul li a:hover {
 }
 
 .furia-logo {
-    background-color: var(--furia-white);
+    background-color: var(--furia-gray);
     color: var(--furia-black);
+}
+
+.furia-logo img {
+    border-radius: 50%;
+    width: 100%;
 }
 
 .opponent-logo {
@@ -688,6 +725,37 @@ footer {
     .logo {
         margin-bottom: 1rem;
     }
+
+    nav.menu-mobile {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #111;
+    }
+
+    nav.menu-mobile.show {
+        display: flex;
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    nav.menu-mobile ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    nav.menu-mobile ul li {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
     
     nav ul {
         flex-direction: column;
@@ -696,6 +764,16 @@ footer {
     
     nav ul li {
         margin: 0.5rem 0;
+    }
+
+    .hero {
+        overflow: hidden;
+    }
+
+    .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     
     .hero h1 {

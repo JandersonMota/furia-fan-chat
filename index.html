@@ -18,7 +18,10 @@
             <div class="logo-img"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png"></div>
             <div>FURIA <span>Fan Chat</span></div>
         </div>
-        <nav>
+        <button class="menu-toggle" aria-label="Abrir menu">
+            <i class="fa-solid fa-caret-down"></i>
+        </button>
+        <nav class="menu-mobile">
             <ul>
                 <li><a href="#features">Recursos</a></li>
                 <li><a href="#live-match">Partida Ao Vivo</a></li>
@@ -29,8 +32,8 @@
     </header>
     
     <section class="hero">
-        <div class="hero-content">
-            <h1>Acompanhe a <span>FURIA</span> como nunca antes</h1>
+        <div class="hero-content" style="z-index: 2; position: absolute;">
+            <h1 >Acompanhe a <span>FURIA</span> como nunca antes</h1>
             <p>Junte-se à comunidade de fãs da FURIA CS para acompanhar partidas ao vivo, interagir com outros torcedores e ficar por dentro de tudo sobre seu time favorito.</p>
             <button class="cta-button" onclick="document.getElementById('chat').scrollIntoView({behavior: 'smooth'})">Entrar no Chat</button>
         </div>
@@ -71,7 +74,10 @@
             <div class="match-status">AO VIVO</div>
             <div class="teams">
                 <div class="team">
-                    <div class="team-logo furia-logo"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png"></div>
+                    <div class="team-logo furia-logo">
+                        <!--<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/FURIA_Esports_logo.svg/800px-FURIA_Esports_logo.svg.png">-->
+                        <img src="https://yt3.googleusercontent.com/_QDHD8FYiV_Xhk4pdtzme9OOtbg6LMCOcSz3-Sv0AVUbSccWbtQJlIbk2sIEiBbQsIgwn64onQ=s160-c-k-c0x00ffffff-no-rj">
+                    </div>
                     <div class="team-name">FURIA</div>
                     <div class="score">13</div>
                 </div>
@@ -162,5 +168,6 @@
     </footer>
     
     <script src="landing-page-furia/js/script.js"></script>
+    <script src="landing-page-furia/js/menu.js"></script>
 </body>
 </html>
