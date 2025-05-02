@@ -16,6 +16,8 @@ Este é um chatbot web simples, pensado para os fãs da FURIA interagirem de for
 
 ## 📸 Demonstração
 <!-- Adicionar um gif ou print -->
+![Vídeo em Desenvolvimento](https://img.shields.io/badge/STATUS-V%C3%ADDEO_EM_DESENVOLVIMENTO-yellow?style=for-the-badge&logo=adobe-premiere-pro&logoColor=white&color=FF9900)
+
 
 Vídeo de demonstração aqui: [Vídeo de Demonstração]()
 
@@ -39,6 +41,7 @@ Vídeo de demonstração aqui: [Vídeo de Demonstração]()
 |  |- css/
 |  |  |- style.css
 |  |- js/
+|  |  |- menu.js
 |  |  |- script.js
 |  |- code-documentation.md
 |- index.html

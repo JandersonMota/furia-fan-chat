@@ -18,7 +18,8 @@ O HTML foi organizado em seções semânticas para melhor acessibilidade e SEO:
 ```html
 <header>
     <div class="logo">...</div>
-    <nav>...</nav>
+    <button class="menu-toggle" aria-label="Abrir menu">...</button>
+    <nav class="menu-mobile">...</nav>
 </header>
 ```
 A seção de cabeçalho contém o logo da aplicação e uma navegação principal que facilita o acesso às diferentes seções da página.
@@ -195,6 +196,14 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 ```
 Garantem que o código seja executado no momento apropriado.
+
+### Funcionalidades do Menu Mobile
+```javascript
+const closeMenu = () => {
+    navMenu.classList.remove("show");
+};
+```
+Esta implementação fecha o menu.
 
 ## 📊 Simulação de Dados
 
